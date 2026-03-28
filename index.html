@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cover Vault — Jaquettes Fan-Made</title>
+  <meta name="description" content="Collection de jaquettes de jeux vidéo fan-made" />
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-logo">
+        <h1 class="header-title">COVER.VAULT</h1>
+        <span class="header-version">v1.0</span>
+      </div>
+      <p class="header-tagline">
+        Ma collection de jaquettes <span class="accent">fan-made</span>
+      </p>
+      <div class="header-stats">
+        <div class="stat-chip">TOTAL <span id="totalCount">0</span></div>
+        <div class="stat-chip">CONSOLES <span id="consoleCount">0</span></div>
+        <div class="stat-chip">GENRES <span id="genreCount">0</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= TOOLBAR ======= -->
+  <div class="toolbar" role="search" aria-label="Filtres et recherche">
+
+    <div class="search-wrap">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <circle cx="6" cy="6" r="4.5" fill="none" stroke-width="1.5" stroke="currentColor"/>
+        <line x1="9.5" y1="9.5" x2="14" y2="14" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Rechercher un jeu..."
+        autocomplete="off"
+        aria-label="Rechercher un jeu"
+      />
+    </div>
+
+    <div class="toolbar-sep" aria-hidden="true"></div>
+
+    <div class="filter-group" id="consoleFilters" role="group" aria-label="Filtrer par console">
+      <span class="filter-label">CONSOLE</span>
+      <!-- Généré dynamiquement par JS -->
+    </div>
+
+    <div class="toolbar-sep" aria-hidden="true"></div>
+
+    <div class="filter-group" id="genreFilters" role="group" aria-label="Filtrer par genre">
+      <span class="filter-label">GENRE</span>
+      <!-- Généré dynamiquement par JS -->
+    </div>
+
+  </div>
+
+  <!-- ======= BARRE INFO ======= -->
+  <div class="info-bar" aria-live="polite">
+    <span class="blink" aria-hidden="true"></span>
+    <span id="visibleCount">0</span>&nbsp;jaquette(s) affichée(s)
+  </div>
+
+  <!-- ======= GRILLE ======= -->
+  <main>
+    <div class="grid" id="grid" aria-label="Galerie de jaquettes">
+      <div class="loading">
+        <div class="loading-bar" aria-hidden="true"></div>
+        <p>CHARGEMENT...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <p>COVER.VAULT &mdash; <span class="accent">Fan-Made</span> &mdash; Toutes les jaquettes sont des créations originales</p>
+  </footer>
+
+  <!-- ======= MODAL ======= -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle"></div>
+        <button class="modal-close" id="modalClose" aria-label="Fermer">✕ FERMER</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-faces">
+          <div class="face-card">
+            <div class="face-card-label">▶ FACE AVANT</div>
+            <div class="face-card-img" id="modalFront"></div>
+          </div>
+          <div class="face-card">
+            <div class="face-card-label">◀ FACE ARRIÈRE</div>
+            <div class="face-card-img" id="modalBack"></div>
+          </div>
+        </div>
+        <div class="modal-details" id="modalDetails"></div>
+        <div class="modal-dl-row">
+          <a class="btn-dl-full" id="dlFront" download>⬇ TÉLÉCHARGER FRONT</a>
+          <a class="btn-dl-full back" id="dlBack" download>⬇ TÉLÉCHARGER BACK</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= SCRIPT ======= -->
+  <script src="static/js/script.js"></script>
+
+</body>
+</html>
