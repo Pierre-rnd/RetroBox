@@ -1,15 +1,8 @@
-/* =====================================================
-       COVER VAULT — main.js (inline)
-       Charge covers.json et gère toute l'interactivité
-       ===================================================== */
-
-// ---- État global ----
 let ALL_COVERS = [];
 let activeConsole = "all";
 let activeGenre = "all";
 let searchVal = "";
 
-// ---- Chargement des données ----
 async function loadCovers() {
   try {
     const res = await fetch("covers.json");
@@ -20,19 +13,16 @@ async function loadCovers() {
     document.getElementById("grid").innerHTML = `
           <div class="empty-state">
             <p>▶ ERREUR DE CHARGEMENT ◀</p>
-            <small>${err.message}<br>Vérifiez que covers.json existe au même niveau que index.html</small>
           </div>`;
   }
 }
 
-// ---- Démarrage après chargement ----
 function bootstrap() {
   updateHeaderStats();
   buildFilters();
   render();
 }
 
-// ---- Stats dans le header ----
 function updateHeaderStats() {
   document.getElementById("totalCount").textContent = ALL_COVERS.length;
   const consoles = new Set(ALL_COVERS.map((c) => c.console));
@@ -41,7 +31,6 @@ function updateHeaderStats() {
   document.getElementById("genreCount").textContent = genres.size;
 }
 
-// ---- Construction dynamique des filtres ----
 function buildFilters() {
   const consoles = ["all", ...new Set(ALL_COVERS.map((c) => c.console).sort())];
   const genres = ["all", ...new Set(ALL_COVERS.map((c) => c.genre).sort())];
@@ -73,7 +62,6 @@ function buildFilters() {
   });
 }
 
-// ---- Filtrage ----
 function filtered() {
   return ALL_COVERS.filter((c) => {
     const cs = activeConsole === "all" || c.console === activeConsole;
@@ -84,7 +72,6 @@ function filtered() {
   });
 }
 
-// ---- Rendu de la grille ----
 function render() {
   const list = filtered();
   const grid = document.getElementById("grid");
@@ -129,7 +116,6 @@ function render() {
     .join("");
 }
 
-// ---- Ouverture modal ----
 function openModal(id) {
   const c = ALL_COVERS.find((x) => x.id === +id);
   if (!c) return;
@@ -170,7 +156,6 @@ function openModal(id) {
   document.getElementById("modalOverlay").classList.add("open");
   document.body.style.overflow = "hidden";
 
-  // Focus trap
   setTimeout(() => document.getElementById("modalClose").focus(), 50);
 }
 
@@ -183,11 +168,9 @@ function slugify(str) {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 }
 
-// ---- Téléchargement rapide depuis la grille ----
 function quickDownload(id) {
   const c = ALL_COVERS.find((x) => x.id === +id);
   if (!c) return;
-  // Télécharge les deux fichiers
   [
     { url: c.front, name: `${slugify(c.title)}-front.png` },
     { url: c.back, name: `${slugify(c.title)}-back.png` },
@@ -201,7 +184,6 @@ function quickDownload(id) {
   });
 }
 
-// ---- Événements : grille ----
 document.getElementById("grid").addEventListener("click", (e) => {
   const viewBtn = e.target.closest(".btn-view");
   const dlBtn = e.target.closest(".btn-dl");
@@ -217,7 +199,6 @@ document.getElementById("grid").addEventListener("click", (e) => {
   if (card && !e.target.closest(".card-actions")) openModal(card.dataset.id);
 });
 
-// Accessibilité clavier sur les cartes
 document.getElementById("grid").addEventListener("keydown", (e) => {
   if (e.key === "Enter" || e.key === " ") {
     const card = e.target.closest(".card");
@@ -228,7 +209,6 @@ document.getElementById("grid").addEventListener("keydown", (e) => {
   }
 });
 
-// ---- Événements : filtres console ----
 document.getElementById("consoleFilters").addEventListener("click", (e) => {
   const btn = e.target.closest(".filter-btn");
   if (!btn) return;
@@ -242,7 +222,6 @@ document.getElementById("consoleFilters").addEventListener("click", (e) => {
   render();
 });
 
-// ---- Événements : filtres genre ----
 document.getElementById("genreFilters").addEventListener("click", (e) => {
   const btn = e.target.closest(".filter-btn");
   if (!btn) return;
@@ -256,13 +235,11 @@ document.getElementById("genreFilters").addEventListener("click", (e) => {
   render();
 });
 
-// ---- Événements : recherche ----
 document.getElementById("searchInput").addEventListener("input", (e) => {
   searchVal = e.target.value.trim();
   render();
 });
 
-// ---- Événements : modal ----
 document.getElementById("modalClose").addEventListener("click", closeModal);
 
 document.getElementById("modalOverlay").addEventListener("click", (e) => {
@@ -273,5 +250,4 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
 
-// ---- Démarrage ----
 loadCovers();
