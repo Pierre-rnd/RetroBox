@@ -3,7 +3,7 @@
     "id": 1,
     "title": "fxpak pro",
     "console": "Super nintendo",
-    "front": "covers/super-nintendo/fxpak-pro-back.jpg",
-    "back": "covers/super-nintendo/fxpak-pro-front.jpg"
+    "front": "static/covers/super-nintendo/fxpak-pro-front.jpg",
+    "back": "static/covers/super-nintendo/fxpak-pro-back.jpg"
   }
 ]
