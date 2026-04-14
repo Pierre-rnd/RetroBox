@@ -5,5 +5,187 @@
     "console": "Super nintendo",
     "front": "static/covers/super-nintendo/fxpak-pro-front.jpg",
     "back": "static/covers/super-nintendo/fxpak-pro-back.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Doom",
+    "console": "32X",
+    "front": "static/covers/32X/doom-front.jpg",
+    "back": "static/covers/32X/doom-back.jpg"
+  },
+    {
+    "id": 3,
+    "title": "Virtua Racing Deluxe",
+    "console": "32X",
+    "front": "static/covers/32X/virtua-racing-deluxe-front.jpg",
+    "back": "static/covers/32X/virtua-racing-deluxe-back.jpg"
+  },
+    {
+    "id": 4,
+    "title": "Basketball",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/basketball-front.jpg",
+    "back": "static/covers/ATARI2600/basketball-back.jpg"
+  },
+    {
+    "id": 5,
+    "title": "Donkey Kong",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/donkey-kong-front.jpg",
+    "back": "static/covers/ATARI2600/donkey-kong-back.jpg"
+  },
+    {
+    "id": 6,
+    "title": "Freeway",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/freeway-front.jpg",
+    "back": "static/covers/ATARI2600/freeway-back.jpg"
+  },
+    {
+    "id": 7,
+    "title": "Kung Fu Master",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/kung-fu-master-front.jpg",
+    "back": "static/covers/ATARI2600/kung fu master  back.jpg"
+  },
+    {
+    "id": 8,
+    "title": "Mario Bros",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/Mario Bros front.jpg",
+    "back": "static/covers/ATARI2600/Mario Bros back.jpg"
+  },
+    {
+    "id": 9,
+    "title": "Missile Command",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/missile command front.jpg",
+    "back": "static/covers/ATARI2600/missile command back.jpg"
+  },
+    {
+    "id": 10,
+    "title": "Moon Patrol",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/moon patrol front.jpg",
+    "back": "static/covers/ATARI2600/moon patrol back.jpg"
+  },
+    {
+    "id": 11,
+    "title": "Pele's soccer",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/pele s soccer front.jpg",
+    "back": "static/covers/ATARI2600/pele s soccer back.jpg"
+  },
+    {
+    "id": 12,
+    "title": "Pole Position",
+    "console": "ATARI 2600",
+    "front": "static/covers/ATARI2600/pole position front.jpg",
+    "back": "static/covers/ATARI2600/pole position back.jpg"
+  },
+    {
+    "id": 13,
+    "title": "Bubsy",
+    "console": "ATARI jaguar",
+    "front": "static/covers/ATARI jaguar/Bubsy Front.jpg",
+    "back": "static/covers/ATARI jaguar/Bubsy Back.jpg"
+  },
+    {
+    "id": 14,
+    "title": "Checkered Flag",
+    "console": "ATARI jaguar",
+    "front": "static/covers/ATARI jaguar/checkered flag front.jpg",
+    "back": "static/covers/ATARI jaguar/checkered flag Back.jpg"
+  },
+    {
+    "id": 15,
+    "title": "Cybermorph",
+    "console": "ATARI jaguar",
+    "front": "static/covers/ATARI jaguar/cybermorph FRONT.jpg",
+    "back": "static/covers/ATARI jaguar/cybermorph Back.jpg"
+  },
+    {
+    "id": 16,
+    "title": "Val d'isere skiing & snowboardiing",
+    "console": "ATARI jaguar",
+    "front": "static/covers/ATARI jaguar/val d isere skiing & snowboardiingFRONT.jpg",
+    "back": "static/covers/ATARI jaguar/val d isere skiing & snowboardiingBACK.jpg"
+  },
+    {
+    "id": 17,
+    "title": "Batman Returns",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/batman returns front.jpg",
+    "back": "static/covers/atari lynx/batman returns back.jpg"
+  },
+    {
+    "id": 18,
+    "title": "California Games",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/california games front.jpg",
+    "back": "static/covers/atari lynx/california games back.jpg"
+  },
+    {
+    "id": 19,
+    "title": "Checkered Flag",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/checkered flag front.jpg",
+    "back": "static/covers/atari lynx/checkered flag back.jpg"
+  },
+    {
+    "id": 20,
+    "title": "Gauntlet",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/gauntlet front.jpg",
+    "back": "static/covers/atari lynx/gauntlet back.jpg"
+  },
+    {
+    "id": 21,
+    "title": "Jimmy Connors'Tennis",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/jimmy connors _tennis front.jpg",
+    "back": "static/covers/atari lynx/jimmy connors _tennis back.jpg"
+  },
+    {
+    "id": 22,
+    "title": "Klax",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/Klax front.jpg",
+    "back": "static/covers/atari lynx/Klax back.jpg"
+  },
+    {
+    "id": 23,
+    "title": "Ms. Pac-Man",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/Ms pac man front.jpg",
+    "back": "static/covers/atari lynx/Ms pac man back.jpg"
+  },
+    {
+    "id": 24,
+    "title": "Paper Boy",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/paper boy front.jpg",
+    "back": "static/covers/atari lynx/paper boy back.jpg"
+  },
+    {
+    "id": 25,
+    "title": "Rygar",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/rygar front.jpg",
+    "back": "static/covers/atari lynx/rygar back.jpg"
+  },
+    {
+    "id": 26,
+    "title": "Shadows of the beast",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/shadows of the beast front.jpg",
+    "back": "static/covers/atari lynx/shadows of the beast back.jpg"
+  },
+    {
+    "id": 27,
+    "title": "Steel talons",
+    "console": "ATARI lynx",
+    "front": "static/covers/atari lynx/steel talons  front.jpg",
+    "back": "static/covers/atari lynx/steel talons back.jpg"
   }
 ]
