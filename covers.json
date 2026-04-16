@@ -187,5 +187,124 @@
     "console": "ATARI lynx",
     "front": "static/covers/atari lynx/steel talons  front.jpg",
     "back": "static/covers/atari lynx/steel talons back.jpg"
+  },    
+  {
+    "id": 28,
+    "title": "Ayrton senna_s super GP monaco  II",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/ayrton senna_s super GP monaco II front.jpg",
+    "back": "static/covers/Game gear/ayrton senna_s super GP monaco  II back.jpg"
+  },
+    {
+    "id": 29,
+    "title": "Batter up us",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/batter up us front.jpg",
+    "back": "static/covers/Game gear/batter up us back.jpg"
+  },
+    {
+    "id": 30,
+    "title": "Devilish us",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/devilish us front.jpg",
+    "back": "static/covers/Game gear/devilish us back.jpg"
+  },
+    {
+    "id": 31,
+    "title": "Griffin JAP",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/griffin JAP front.jpg",
+    "back": "static/covers/Game gear/griffin JAP back.jpg"
+  },
+    {
+    "id": 32,
+    "title": "Indiana jones et la derniere croisade us",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/indiana jones et la derniere croisade us  front.jpg",
+    "back": "static/covers/Game gear/indiana jones et la derniere croisade us  back.jpg"
+  },
+    {
+    "id": 33,
+    "title": "Klax us",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/Klax us front.jpg",
+    "back": "static/covers/Game gear/Klax us back.jpg"
+  },
+    {
+    "id": 34,
+    "title": "Krusty_s fun house",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/Krusty_s fun house front.jpg",
+    "back": "static/covers/Game gear/Krusty_s fun house back.jpg"
+  },
+    {
+    "id": 35,
+    "title": "Les schtroumpfs",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/les schtroumpfs front.jpg",
+    "back": "static/covers/Game gear/les schtroumpfs back.jpg"
+  },
+      {
+    "id": 36,
+    "title": "Mortal kombat",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/mortal kombat front.jpg",
+    "back": "static/covers/Game gear/mortal kombat back.jpg"
+  },
+    {
+    "id": 37,
+    "title": "Super kick off",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/super kick off front.jpg",
+    "back": "static/covers/Game gear/super kick off back.jpg"
+  },
+    {
+    "id": 38,
+    "title": "NBA jam TE",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/NBA jam TE front.jpg",
+    "back": "static/covers/Game gear/NBA jam TE back.jpg"
+  },
+    {
+    "id": 39,
+    "title": "Sega game pack 4in1",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/sega game pack 4in1 front.jpg",
+    "back": "static/covers/Game gear/sega game pack 4in1 back.jpg"
+  },
+    {
+    "id": 40,
+    "title": "Sonic chaos",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/sonic chaos front.jpg",
+    "back": "static/covers/Game gear/sonic chaos back.jpg"
+  },
+    {
+    "id": 41,
+    "title": "Sonic the hedgehog us",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/sonic the hedgehog us front.jpg",
+    "back": "static/covers/Game gear/sonic the hedgehog us back.jpg"
+  },
+    {
+    "id": 42,
+    "title": "Sonic triple trouble",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/sonic triple trouble front.jpg",
+    "back": "static/covers/Game gear/sonic triple trouble back.jpg"
+  },
+    {
+    "id": 43,
+    "title": "The lucky dime caper  JAP",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/the lucky dime caper  JAP front.jpg",
+    "back": "static/covers/Game gear/the lucky dime caper  JAP back.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Winter olympics",
+    "console": "Game gear",
+    "front": "static/covers/Game gear/winter olympics  front.jpg",
+    "back": "static/covers/Game gear/winter olympics  back.jpg"
   }
 ]
