@@ -603,6 +603,26 @@ body::after {
   letter-spacing: 1px;
 }
 
+.visit-counter {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.visit-label {
+  font-family: var(--font-pixel);
+  font-size: 7px;
+  color: var(--muted);
+}
+
+.visit-count img {
+  height: 20px;
+  vertical-align: middle;
+  filter: hue-rotate(20deg) brightness(1.1);
+}
+
 .footer .accent { color: var(--orange); }
 
 .loading {
